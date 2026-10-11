@@ -1,5 +1,5 @@
 // خدمة عمل بسيطة: تخزّن واجهة التطبيق ليعمل دون إنترنت بعد أول زيارة
-const CACHE = 'smart-surveys-flat-v1';
+const CACHE = 'smart-surveys-flat-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', (e) => {
